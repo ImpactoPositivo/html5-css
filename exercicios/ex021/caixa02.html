@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #a8ebc3;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.363);         
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        /*
+
+        div#bola {  Border Radius para criar esferas
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+        */
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+<main>
+    <section id="noticias">
+        <article>
+            <h2>Notícias do Mundo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt mollitia magni quo eveniet, hic corporis consectetur obcaecati, ipsum eligendi sunt ipsa, dolor aperiam velit laboriosam? Inventore iure quod placeat quis?</p>
+        </article>
+    </section>
+    <section id="noticias">
+        <article>
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati at ut officiis nulla libero iusto eius sapiente, corrupti aliquid recusandae blanditiis saepe. Adipisci consectetur voluptatibus earum ducimus reprehenderit eius.</p>
+            <aside>
+
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+
+    </section>
+</main>
+<footer>
+    Desenvolvido pelo Curso em Video
+</footer>
+
+<!--
+<div id="bola">
+    <h1> Construir uma esfera</h1>
+    <p> Veja a configuração na folha de estilos </p>
+</div>
+-->
+
+
+</body>
+</html>
